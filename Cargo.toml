@@ -1,0 +1,12 @@
+[package]
+name = "s3-nist-scanner"
+version = "2.0.1"
+edition = "2021"
+
+[dependencies]
+aws-config = { version = "1.1", features = ["behavior-version-latest"] }
+aws-sdk-s3 = "1.100"
+aws-sdk-guardduty = "1.10"
+tokio = { version = "1", features = ["full"] }
+
+

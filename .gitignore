@@ -1,0 +1,7 @@
+# Rust/Cargo
+target/
+Cargo.lock
+
+# OS
+.DS_Store
+*.swp
